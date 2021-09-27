@@ -17,7 +17,7 @@ const QuantityCard = (props) => {
                     <h6 className="card-subtitle mb-2 text-muted">Total books added : {cartItem.length} </h6>
                     <h6 className="card-subtitle mb-2 text-muted">Total books Quantity : {totalQuantity} </h6>
                     <ul>
-                        {cartItem.map(item => <li className="card-text" key={item.book_id}>{item.Name} ({item.quantity})</li>)}
+                        {cartItem.map(item => <li className="card-text" key={item.book_id}>{item.Name} <span className='text-success fw-bold'>({item.quantity})</span></li>)}
                     </ul>
                     <h6 className="card-subtitle mb-2 text-muted">Total Bill : {totalPrice} </h6>
 
