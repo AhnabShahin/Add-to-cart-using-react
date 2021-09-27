@@ -6,21 +6,21 @@ const Header = () => {
         <div>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container">
-                    <a className="navbar-brand d-flex align-items-center" href="/next"><span className="logo "><i className="fas fa-book-open text-success"></i></span > বাংলা বাজার</a>
+                    <a className="navbar-brand d-flex align-items-center" href="/next"><span className="logo "><i className="fas fa-book-open "></i> বাংলা বাজার</span ></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/nextnavbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="/next">Home</a>
+                                <a className="nav-link active headerLink" aria-current="page" href="/next">ম্যাগাজিন</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/next">Link</a>
+                                <a className="nav-link" href="/next">একুশে বই মেলা</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="/next" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
+                                গল্পের বই
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a className="dropdown-item" href="/next">Action</a></li>
@@ -29,10 +29,13 @@ const Header = () => {
                                     <li><a className="dropdown-item" href="/next">Something else here</a></li>
                                 </ul>
                             </li>
+                            <li className="nav-item">
+                                <a className="nav-link active headerLink" aria-current="page" href="/next">টোটাল বাজেট : ৫০০০ টাকা</a>
+                            </li>
                         </ul>
                         <form className="d-flex">
-                            <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                            <button className ="btn btn-outline-success" type ="submit">Search</button>
+                            <input className="form-control me-2" type="search" placeholder="খোঁজ করুন" aria-label="Search"/>
+                            <button className ="btn btn-outline-success" type ="submit">খোঁজ</button>
                         </form>
                     </div>
                 </div>
